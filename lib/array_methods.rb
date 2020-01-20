@@ -6,7 +6,9 @@ end
 end
 
 def find_max_value(array)
-  # Add your solution here
+  do
+      expect(find_max_value(scale)).to eq(5)
+    end
 end
 
 def find_min_value(array)

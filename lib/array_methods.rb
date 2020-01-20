@@ -12,5 +12,7 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  
+  do
+      expect(find_min_value(scale)).to eq(2)
+    end
 end
